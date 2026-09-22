@@ -222,11 +222,3 @@ If you have two secondary storage HDDs and want to combine them into one seamles
 5. Choose a drive letter, then choose your resiliency type: **Two-way mirror** (safest — keeps a duplicate copy, but halves your total usable capacity) or **Simple** (no resiliency — gives you the maximum pooled space of both drives combined, but a single drive failure loses everything). Click Create storage space. They will now appear as a single large drive in File Explorer.
 
 ---
-
-## Optional Next Steps
-
-If you'd like supporting material to go alongside this guide, a few useful add-ons are:
-
-1. A **separate command-line cheat-sheet** containing just the Command Prompt commands (chkdsk, DISM, sfc, powercfg) for quick copy-pasting.  
-2. A **quick physical checklist** of the exact tools and steps needed to open the PC and mount the drive.  
-3. Nothing further — the guide above is complete and ready to follow.

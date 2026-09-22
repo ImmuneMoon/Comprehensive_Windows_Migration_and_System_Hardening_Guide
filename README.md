@@ -24,9 +24,6 @@ A step-by-step walkthrough for moving a Windows install off an old mechanical ha
 
 Anyone doing an HDD-to-SSD migration on a Windows desktop who wants to keep their existing install rather than start over. The example build is a **SIX X4000 512GB NVMe** on an **ASRock A520M-HVS** with a **CyberPower CP1500PFCLCD** UPS, but every hardware-specific step is flagged with what to check on your own machine, so the procedure carries over to other builds.
 
-## License
-
-MIT — use it, copy it, adapt it, share it; just keep the copyright notice.
 
 ## ☕ Support the Project
 

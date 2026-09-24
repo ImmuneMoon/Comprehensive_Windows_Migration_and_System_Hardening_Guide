@@ -51,7 +51,11 @@ Abrupt power losses cause mechanical HDD arms to snap back violently, causing lo
 
 ## Phase 3: Bit-Level Operating System Migration
 
-Some SSDs (including the SIX X4000 in this example) don't include a dedicated cloning suite. If yours does — Samsung Data Migration, Crucial's Acronis edition, WD/SanDisk Dashboard, and so on — you can use it. Otherwise, use a platform-agnostic tool like DiskGenius or Hasleo Disk Clone (both offer a free tier capable of this migration).
+Some SSDs (including the SIX X4000 in this example) don't include a dedicated cloning suite. If yours does — Samsung Data Migration, Crucial's Acronis edition, WD/SanDisk Dashboard, and so on — you can use it. Otherwise, use a platform-agnostic tool like **DiskGenius** or **Hasleo Disk Clone**.
+
+> **Which free tool?** There's a meaningful difference between the two for this job:
+> - **Hasleo Disk Clone** clones whole disks and partitions for free, but its **OS/System Transfer feature is paywalled** — migrating *just the OS* to another drive requires the paid version.
+> - **DiskGenius** can do the OS migration on its **free tier**, and during the process it **offers to automatically reassign the C: drive letter** to the new SSD for you. Taking that option can save you the manual boot/drive-letter juggling in Phase 4.
 
 1. Fire up your cloning program of choice.  
 2. Select the utility labeled System Migration or OS Migration.  

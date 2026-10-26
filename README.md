@@ -1,5 +1,11 @@
 # Comprehensive Windows Migration & System Hardening Guide
 
+![Windows 11](https://img.shields.io/badge/Windows-11-0078D4?logo=windows&logoColor=white)
+![Migration: HDD to NVMe SSD](https://img.shields.io/badge/Migration-HDD%20%E2%86%92%20NVMe%20SSD-6f42c1)
+![Hardening: BitLocker, Secure Boot, TPM](https://img.shields.io/badge/Hardening-BitLocker%20%7C%20Secure%20Boot%20%7C%20TPM-d73a49)
+[![Last updated](https://img.shields.io/github/last-commit/ImmuneMoon/Comprehensive_Windows_Migration_and_System_Hardening_Guide?label=updated)](https://github.com/ImmuneMoon/Comprehensive_Windows_Migration_and_System_Hardening_Guide/commits/main)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](LICENSE)
+
 A step-by-step walkthrough for moving a Windows install off an old mechanical hard drive onto a new NVMe M.2 SSD — safely, without a reinstall — then optimizing, backing up, and hardening the fresh system. It's written as a complete worked example on one real build, with **"Adapting to your hardware"** notes throughout so it applies to almost any Windows desktop.
 
 ## Read the guide

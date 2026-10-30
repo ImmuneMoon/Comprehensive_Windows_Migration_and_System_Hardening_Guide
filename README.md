@@ -6,6 +6,8 @@
 [![Last updated](https://img.shields.io/github/last-commit/ImmuneMoon/Comprehensive_Windows_Migration_and_System_Hardening_Guide?label=updated)](https://github.com/ImmuneMoon/Comprehensive_Windows_Migration_and_System_Hardening_Guide/commits/main)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](LICENSE)
 
+**📄 Download the PDF:** [Full guide](Comprehensive_Windows_Migration_and_System_Hardening_Guide.pdf) | [BIOS checklist](ASRock_A520M-HVS_BIOS_Setup_Checklist.pdf)
+
 A step-by-step walkthrough for moving a Windows install off an old mechanical hard drive onto a new NVMe M.2 SSD — safely, without a reinstall — then optimizing, backing up, and hardening the fresh system. It's written as a complete worked example on one real build, with **"Adapting to your hardware"** notes throughout so it applies to almost any Windows desktop.
 
 ## Read the guide
@@ -39,4 +41,4 @@ If you find this project helpful and want to support further development by Full
 * [Support on Ko-fi](https://ko-fi.com/fulllion)
 
 ---
-© 2026 Fulllion Creative Works. Released under the MIT License.
+© 2026 Fulllion Creative Works. Released under the CC BY 4.0 License.

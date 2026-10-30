@@ -57,13 +57,18 @@ Some SSDs (including the SIX X4000 in this example) don't include a dedicated cl
 > - **Hasleo Disk Clone** clones whole disks and partitions for free, but its **OS/System Transfer feature is paywalled** — migrating *just the OS* to another drive requires the paid version.
 > - **DiskGenius** can do the OS migration on its **free tier**, and during the process it **offers to automatically reassign the C: drive letter** to the new SSD for you. Taking that option can save you the manual boot/drive-letter juggling in Phase 4.
 
-1. Fire up your cloning program of choice.  
-2. Select the utility labeled System Migration or OS Migration.  
-3. Verify the selection profiles accurately match your components:  
-   * Source Drive: Your old structural HDD containing the current Windows OS footprint.  
-   * Target Drive: Your unallocated SIX X4000 NVMe SSD.  
-4. When prompted by the execution wizard, pick Hot Migration. This isolates active file system hooks into a local shadow state, allowing Windows to safely clone itself in the background without locking you out of your workstation.  
-5. Keep your PC completely idle and do not launch extra background applications until the completion prompt flags a success status.
+**Using DiskGenius (free):**
+
+1. Download [DiskGenius](https://www.diskgenius.com/download.php), install the free edition, and open it.
+2. Click **OS Migration** on the toolbar, or go to **Tools** > **System Migration**.
+3. Select your unallocated SIX X4000 NVMe SSD as the target disk and click **OK**. Double-check this by size, because everything on the target disk gets erased.
+4. Review the layout. By default, DiskGenius copies your system and boot partitions, and you can resize them by dragging the boundary on the target disk. Leave this alone unless the target is short on space.
+5. Leave **When finished, change computer boot sequence** unchecked, since you'll set the boot order yourself in Phase 4.
+6. Click **Start**, then click **OK** at the warning that the target disk will be overwritten.
+7. When asked how to migrate, choose **Hot Migration**. This lets Windows clone itself in the background without restarting. If it fails, run the migration again and choose **Reboot to WinPE**, which restarts the PC and does the copy outside Windows.
+8. Keep your PC idle and don't open other programs until DiskGenius says the migration is complete.
+
+**Using your SSD maker's tool or another program:** The wizard will look different, but the job is the same. Open its System Migration or OS Migration option, set your old HDD as the source and your new SSD as the target, and start it.
 
 ---
 

@@ -12,6 +12,8 @@ A step-by-step walkthrough for moving a Windows install off an old mechanical ha
 
 **Companion checklist:** [ASRock_A520M-HVS_BIOS_Setup_Checklist.md](ASRock_A520M-HVS_BIOS_Setup_Checklist.md) is a one-pass BIOS/UEFI checklist for the example board (ASRock A520M-HVS). Board-specific, but easy to adapt to yours.
 
+**Moving to a new PC or motherboard instead of a new drive?** See [Move Windows to a New PC](https://github.com/ImmuneMoon/Move-Windows-to-a-New-PC). It covers checking whether your license can move, BIOS and storage settings on new hardware, and reactivating Windows.
+
 ## Who it's for
 
 Anyone doing an HDD-to-SSD migration on a Windows desktop who wants to keep their existing install rather than start over. The example build is a **SIX X4000 512GB NVMe** on an **ASRock A520M-HVS** with a **CyberPower CP1500PFCLCD** UPS, but every hardware-specific step is flagged with what to check on your own machine, so the procedure carries over to other builds.
